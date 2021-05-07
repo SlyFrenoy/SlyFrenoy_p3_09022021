@@ -1,0 +1,22 @@
+{
+  "name": "projet-ohmyfoodp3",
+  "version": "1.0.0",
+  "description": "Projet 3 ohmyfood OpenClassrooms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SlyFrenoy/SlyFrenoy_p3_09022021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SlyFrenoy/SlyFrenoy_p3_09022021/issues"
+  },
+  "homepage": "https://github.com/SlyFrenoy/SlyFrenoy_p3_09022021#readme",
+  "dependencies": {
+    "sass": "^1.32.12"
+  }
+}
