@@ -1,3 +1,38 @@
-header {
-    background-color: yellow;
+@import "../utils/variables.scss";
+
+@import "../composants/composants.scss";
+
+/* header page d'accueil */
+
+.header-home-page {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    background-color: $color-white;
+}
+
+.header-menu-page {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 3rem;
+    background-color: $color-white;
+    .header-menu-page__icon__container {
+        padding: $padding-footer-base;
+    }
+    .header-menu-page__logo__containe {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: green;
+        .header-mennu-page__logo {
+            color: black;
+        }
+    }
+    .header-menu-page__title {
+        padding-left: 1.5rem;
+    }
 }

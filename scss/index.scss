@@ -1,17 +1,11 @@
-@import url(./_reset.scss);
+@import "../scss/vendors/reset.scss";
 
-@import url(./_themes.scss);
+@import "../scss/utils/variables.scss";
 
-@import url(./styles.scss);
+@import "../scss/base/foundtions.scss";
 
-.header-hom-page__logo__container {
-    background-color: yellow;
-}
+@import "../scss/layout/header.scss";
 
-footer {
-    background-color: blue;
-}
+@import "../scss/layout/main.scss";
 
-main {
-    background-color: violet;
-}
+@import "../scss/layout/footer.scss";

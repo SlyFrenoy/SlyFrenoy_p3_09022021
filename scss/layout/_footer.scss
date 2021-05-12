@@ -1,3 +1,31 @@
-footer {
-    background: blueviolet;
+@import "../utils/variables.scss";
+
+@import "../composants/composants.scss";
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: $background-color;
+    &__title {
+        font-family: "Roboto";
+        font-size: 1.1rem;
+        padding: $padding-footer-md;
+    }
+    .footer__nav {
+        display: flex;
+        flex-direction: column;
+        &__link__icon {
+            color: $color-white;
+        }
+        &__chip {
+            list-style: none;
+            padding: $padding-footer-base;
+            .footer__nav__link {
+                text-decoration: none;
+                color: $color-white;
+                padding-left: 1rem;
+            }
+        }
+    }
 }
