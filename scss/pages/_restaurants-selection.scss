@@ -1,0 +1,36 @@
+.restaurant-selection__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 18rem;
+    background-color: lighten($background-color, 75%);
+    .restaurant-selection__title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+        width: 100%;
+    }
+    .restaurant-selection__info {
+        font-size: 1.1rem;
+        text-align: center;
+        font-weight: 200;
+        width: 100%;
+    }
+    .restaurant-selection__link {
+            padding: 1rem;
+            border-radius: 2rem;
+            text-decoration: none;
+            color: $color-white;
+            font-weight: bold;
+            border: transparent;
+            background: $primary-gradient;
+            box-shadow: 0 .2rem .5rem 0 lighten($background-color, $amount: 30);
+            &:hover{
+                background: $secondary-gradient;
+                box-shadow: 0 .2rem .5rem 0 $background-color;
+                transition: all 400ms;
+            }
+    }
+}
+

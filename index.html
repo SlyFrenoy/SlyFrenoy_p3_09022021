@@ -7,132 +7,137 @@
     <meta name="description" content="site-de-reservation-de-menu-gastromique" />
     <title>ohmyfood</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?famille=Shrikhand&display=swap" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?famille=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&" />
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" />
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap" />
     <script src="https://kit.fontawesome.com/4f8fed3940.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css/index.css"/>
+    <link type="text/css" rel="stylesheet" href="./css/index.css"/>
 </head>
 <body>
-    <div class="home-page__loader__container">
+    <div class="loader__container">
         <p>en attente d'animation</p>
     </div>
-    <header class="header-home-page" id="home-page">
-        <div class="header-home-page__logo__container">
-            <h1 class="header-home-page__logo">
+    <header class="header" id="home-page">
+        <div class="header__logo__container">
+            <h1 class="header__logo">
                 <img src="./images/logo/ohmyfood@2x.svg" alt="logo ohmyfood">
             </h1>
         </div>
     </header>
-    <main class="home-page__main">
-        <div class="home-page__nav__container">
-            <div class="home-page__nav__icon">
+    <main class="main">
+        <div class="localisation-search__container">
+            <div class="localisation-search__icon">
                 <i class="fas fa-map-marker-alt"></i>
             </div>
-            <select name="ville">
-                <option value="0">Selectionnez une ville</option>
-                <option value="Paris, FRANCE">Paris, FRANCE</option>
-                <option value="Bordeaux, FRANCE">Bordeaux, FRANCE</option>
-                <option value="Lyon, FRANCE">Lyon, FRANCE</option>
-                <option value="Lille, FRANCE">Lille, FRANCE</option>
-                <option value="Strasbourg, FRANCE">Strasbourg, FRANCE</option>
-                <option value="Nice, FRANCE">Nice, FRANCE</option>
-                <option value="Annecy, FRANCE">Annecy, FRANCE</option>
-                <option value="Aix-en-Provence, FRANCE">Aix-en-Provence, FRANCE</option>
-                <option value="Marseille, FRANCE">Marseille, FRANCE</option>
+            <select class="localisation-choice" name="ville">
+                <option value="0">Paris, Belleville</option>
+                <option value="Paris, FRANCE">Paris, Trocadéro</option>
+                <option value="Bordeaux, FRANCE">Paris, Montmartre</option>
+                <option value="Lyon, FRANCE">Paris, Père Lachaise</option>
+                <option value="Lille, FRANCE">Paris, Notre-Dame</option>
             </select>
         </div>
         <div class="restaurant-selection__container">
-            <h2>Réservez le restaurant qui vous convient</h2>
-            <p>Découvrez les restaurants d'exception, séléctionnés par nos soins.</p>
+            <h2 class="restaurant-selection__title">Réservez le restaurant qui vous convient</h2>
+            <p class="restaurant-selection__info">Découvrez les restaurants d'exception, séléctionnés par nos soins.</p>
             <a class="restaurant-selection__link" href="#restaurants">Explorer nos restaurants</a>
         </div>
-        <div class="home-page__operation__container">
-            <h2 class="home-page-operation__title">Fonctionnement</h2>
-            <ul class="home-page__operation__list">
-                <li class="home-page__operation__chip">
-                    <a class="home-page__operation__link" href="#">
-                        <span class="home-page__operation__number">1</span>
-                        <span class="home-page__operation__icon">
-                            <i class="fas fa-mobile-alt"></i>
-                        </span>
-                        Choisissez un restaurant
-                    </a>
-                </li>
-                <li class="home-page__operation__chip">
-                    <a class="home-page__operation__link" href="#">
-                        <span class="home-page__operation__number">2</span>
-                        <span class="home-page__operation__icon">
-                            <i class="fas fa-list-ul"></i>
-                        </span>
-                        Composez votre menu
-                    </a>
-                </li>
-                <li class="home-page__operation__chip">
-                    <a class="home-page__operation__link" href="#">
-                        <span class="home-page__operation__number">3</span>
-                        <span class="home-page__operation__icon">
-                            <i class="fas fa-store"></i>
-                        </span>
-                        Dégustez au restaurant
-                    </a>
-                </li>
-            </ul>
+        <div class="operation">
+            <h2 class="operation__title">Fonctionnement</h2>
+            <div class="operation__container">
+                <div class="operation__number__container">
+                    <p class="operation__number">1</p>
+                </div>
+                <a class="operation__link" href="#">
+                    <div class="operation__icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    Choisissez un restaurant
+                </a>
+            </div>
+            <div class="operation__container">
+                <div class="operation__number__container">
+                    <p class="operation__number">2</p>
+                </div>
+                <a class="operation__link" href="#">
+                    <div class="operation__icon">
+                        <i class="fas fa-list-ul"></i>
+                    </div>
+                    Composez votre menu
+                </a>
+            </div>
+            <div class="operation__container">
+                <div class="operation__number__container">
+                    <p class="operation__number">3</p>
+                </div>
+                <a class="operation__link" href="#">
+                    <div class="operation__icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    Dégustez au restaurant
+                </a>
+            </div>
         </div>
-        <div class="home-page__restaurants__container">
-            <h2 class="home-page__restaurants__title" id="restaurants">Restaurants</h2>
-            <div class="home-page__restautants__card__container">
-                <div class="home-page__restaurant__card">
-                    <a class="home-page__restaurant__card__link" href="./pages/lapalettedugout.html">
-                        <img src="./images/restaurants/lapalettedugout.jpg" alt="La palette du goût"/>
+        <div class="restaurants__container">
+            <h2 class="restaurants__title" id="restaurants">Restaurants</h2>
+            <div class="restautants__card__container">
+                <div class="restaurant__card">
+                    <a class="restaurant__card__link" href="./pages/lapalettedugout.html">
+                        <img class="restaurant__picture" src="./images/restaurants/lapalettedugout.jpg" alt="La palette du goût"/>
                     </a>
-                    <div class="home-page__restaurant__card__novelty-frame__container">
-                        <p class="home-page__restaurant__card__novelty-frame">Nouveau</p>
+                    <div class="restaurant__card__novelty-frame__container">
+                        <p class="restaurant__card__novelty-frame">Nouveau</p>
                     </div>
-                    <div class="home-page__restaurant__card__information">
-                        <div class="home-page__restaurant__card__text-container">
-                            <h3 class="home-page__restaurant__card__title">La palette du goût</h3>
-                            <p class="home-page__restaurant__localisation-information">Ménilmontant</p>
+                    <div class="restaurant__card__information">
+                        <div class="restaurant__card__text-container">
+                            <h3 class="restaurant__card__title">La palette du goût</h3>
+                            <p class="restaurant__localisation-information">Ménilmontant</p>
                         </div>
-                        <div class="home-page__restaurant__card__information__icon__container">
+                        <div class="restaurant__card__information__icon__container">
                             <i class="far fa-heart"></i>
                         </div>
                     </div>
                 </div>
-                <div class="home-page__restaurant__card">
-                    <img src="./images/restaurants/lanoteenchantee.jpg" alt="La note enchantée"/>
-                    <div class="home-page__restaurant__card__novelty-frame__container">
-                        <p class="home-page__restaurant__card__novelty-frame">Nouveau</p>
+                <div class="restaurant__card">
+                    <a class="restaurant__card__link" href="./pages/lanoteenchantee.html">
+                        <img class="restaurant__picture" src="./images/restaurants/lanoteenchantee.jpg" alt="La note enchantée"/>
+                    </a>
+                    <div class="restaurant__card__novelty-frame__container">
+                        <p class="restaurant__card__novelty-frame">Nouveau</p>
                     </div>
-                    <div class="home-page__restaurant__card__information">
-                        <div class="home-page__restaurant__card__text-container">
-                            <h3 class="home-page__restaurant__card__title">La note encantée</h3>
-                            <p class="home-page__restaurant__localisation-information">Charonne</p>
+                    <div class="restaurant__card__information">
+                        <div class="restaurant__card__text-container">
+                            <h3 class="restaurant__card__title">La note encantée</h3>
+                            <p class="restaurant__localisation-information">Charonne</p>
                         </div>
-                        <div class="home-page__restaurant__card__information__icon__container">
+                        <div class="restaurant__card__information__icon__container">
                             <i class="far fa-heart"></i>
                         </div>
                     </div>
                 </div>
-                <div class="home-page__restaurant__card">
-                    <img src="./images/restaurants/alafrancaise.jpg" alt="À la française"/>
-                    <div class="home-page__restaurant__card__information">
-                        <div class="home-page__restaurant__card__text-container">
-                            <h3 class="home-page__restaurant__card__title">À la française</h3>
-                            <p class="home-page__restaurant__localisation-information">Cité Rouge</p>
+                <div class="restaurant__card">
+                    <a class="restaurant__card__link" href="./pages/alafrancaise.html">
+                        <img class="restaurant__picture" src="./images/restaurants/alafrancaise.jpg" alt="À la française"/>
+                    </a>
+                    <div class="restaurant__card__information">
+                        <div class="restaurant__card__text-container">
+                            <h3 class="restaurant__card__title">À la française</h3>
+                            <p class="restaurant__localisation-information">Cité Rouge</p>
                         </div>
-                        <div class="home-page__restaurant__card__information__icon__container">
+                        <div class="restaurant__card__information__icon__container">
                             <i class="far fa-heart"></i>
                         </div>
                     </div>
                 </div>
-                <div class="home-page__restaurant__card">
-                    <img src="./images/restaurants/ledelicedessens.jpg" alt="le délice des sens" />
-                    <div class="home-page__restaurant__card__information">
-                        <div class="home-page__restaurant__card__text-container">
-                            <h3 class="home-page__restaurant__card__title">Le délice des sens</h3>
-                            <p class="home-page__restaurant__localisation-information">Folie-Méricourt</p>
+                <div class="restaurant__card">
+                    <a class="restaurant__card__link" href="./pages/ledelicedessens.html">
+                        <img class="restaurant__picture" src="./images/restaurants/ledelicedessens.jpg" alt="le délice des sens" />
+                    </a>
+                    <div class="restaurant__card__information">
+                        <div class="restaurant__card__text-container">
+                            <h3 class="restaurant__card__title">Le délice des sens</h3>
+                            <p class="restaurant__localisation-information">Folie-Méricourt</p>
                         </div>
-                        <div class="home-page__restaurant__card__information__icon__container">
+                        <div class="restaurant__card__information__icon__container">
                             <i class="far fa-heart"></i>
                         </div>
                     </div>
@@ -144,13 +149,13 @@
         <h2 class="footer__title">ohmyfood</h2>
         <ul class="footer__nav">
             <li class="footer__nav__chip">
-                <a class="footer__nav__link" href="#">
+                <a class="footer__nav__link footer__nav__link--active" href="#">
                     <i class="footer__nav__link__icon fas fa-utensils"></i>
                     Proposer un restaurant
                 </a>
             </li>
             <li class="footer__nav__chip">
-                <a class="footer__nav__link" href="#">
+                <a class="footer__nav__link footer__nav__link--active" href="#">
                     <i class="footer__nav__link__icon fas fa-hands-helping"></i>
                     Devenir partenaire
                 </a>

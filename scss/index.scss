@@ -1,11 +1,13 @@
 @import "../scss/vendors/reset.scss";
 
-@import "../scss/utils/variables.scss";
+@import "../scss/base/foundations.scss";
 
-@import "../scss/base/foundtions.scss";
+@import "../scss/utils/variables.scss";
 
 @import "../scss/layout/header.scss";
 
 @import "../scss/layout/main.scss";
 
 @import "../scss/layout/footer.scss";
+
+@import "../scss/pages/pages.scss";

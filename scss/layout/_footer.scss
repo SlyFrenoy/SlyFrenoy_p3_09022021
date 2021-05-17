@@ -1,15 +1,46 @@
-@import "../utils/variables.scss";
-
-@import "../composants/composants.scss";
-
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 12rem;
+    background-color: $background-color;
+    h2 {
+        font-family: "Shrikhand";
+        color: $color-white;
+        font-size: $title-size-base;
+        padding: $padding-footer-md;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        &__link__icon {
+            color: $color-white;
+        }
+        li {
+            list-style: none;
+            padding: $padding-footer-base;
+            a {
+                text-decoration: none;
+                color: $color-white;
+                padding-left: 1rem;
+            }
+            .footer__nav__link--active {
+                font-weight: bold;
+            }
+        }
+    }
+}
+/*
 .footer {
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 12rem;
     background-color: $background-color;
     &__title {
-        font-family: "Roboto";
-        font-size: 1.1rem;
+        font-family: "Shrikhand";
+        color: $color-white;
+        font-size: $title-size-base;
         padding: $padding-footer-md;
     }
     .footer__nav {
@@ -29,3 +60,4 @@
         }
     }
 }
+*/

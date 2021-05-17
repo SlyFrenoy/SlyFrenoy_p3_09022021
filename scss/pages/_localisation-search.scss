@@ -1,0 +1,19 @@
+.localisation-search__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lighten($background-color, 70);
+    width: 100%;
+    height: $box-heigth-base;
+    .localisation-search__icon {
+        padding: $padding-footer-base;
+    }
+    .localisation-choice {
+        background-color: lighten($background-color, 70);
+        border: solid transparent 0;
+        appearance: none;
+        font-family: "Roboto";
+        font-weight: bold;
+        font-size: $title-size-base;
+    }
+}
