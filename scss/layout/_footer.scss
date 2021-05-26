@@ -1,8 +1,4 @@
 footer {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: auto;
     background-color: $background-color;
     div {
         margin-left: 10%;
@@ -10,7 +6,6 @@ footer {
             font-family: "Shrikhand";
             color: $color-white;
             font-size: $title-size-base;
-            /*padding: $padding-footer-md;*/
             padding: 1rem 0 1rem 0;
         }
         ul {
@@ -21,13 +16,11 @@ footer {
             }
             li {
                 list-style: none;
-                /*padding: $padding-footer-base;*/
                 padding: .75rem 0;
                 a {
                     font-weight: 300;
                     text-decoration: none;
                     color: $color-white;
-                    /*padding-left: 1rem;*/
                     i {
                         width: .75rem;
                         padding-right: .75rem;
@@ -39,36 +32,4 @@ footer {
             }
         }
     }
-
 }
-/*
-.footer {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 12rem;
-    background-color: $background-color;
-    &__title {
-        font-family: "Shrikhand";
-        color: $color-white;
-        font-size: $title-size-base;
-        padding: $padding-footer-md;
-    }
-    .footer__nav {
-        display: flex;
-        flex-direction: column;
-        &__link__icon {
-            color: $color-white;
-        }
-        &__chip {
-            list-style: none;
-            padding: $padding-footer-base;
-            .footer__nav__link {
-                text-decoration: none;
-                color: $color-white;
-                padding-left: 1rem;
-            }
-        }
-    }
-}
-*/

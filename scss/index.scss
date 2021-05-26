@@ -1,13 +1,17 @@
-@import "../scss/vendors/reset.scss";
+@import "./base/reset.scss";
 
-@import "../scss/base/foundations.scss";
+@import "./base/foundations.scss";
 
-@import "../scss/utils/variables.scss";
+@import "./utils/variables.scss";
 
-@import "../scss/layout/header.scss";
+@import "./pages/homepage.scss";
 
-@import "../scss/layout/main.scss";
+@import "./pages/alafrancaise.scss";
 
-@import "../scss/layout/footer.scss";
+@import "./pages/lanoteenchantee.scss";
 
-@import "../scss/pages/pages.scss";
+@import "./pages/lapalettedugout.scss";
+
+@import "./pages/ledelicedessens.scss";
+
+@import "./composants/loader-animation.scss";
