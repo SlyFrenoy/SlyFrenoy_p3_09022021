@@ -1,8 +1,11 @@
 .header {
-    position: relative;
     height: 3rem;
+    width: 100%;
     background-color: $color-white;
     box-shadow: 0  .2rem .5rem lighten($background-color, 40%);
+    &--menu {
+        position: absolute;
+    }
     &__icon__container {
         position: absolute;
         left: 1rem;
