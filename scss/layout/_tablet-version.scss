@@ -1,0 +1,16 @@
+@media screen and (min-widht: 600px) and (max-width: 769px) {
+  .header {
+    .header__logo__container {
+      height: 4.5rem;
+      width: 100%;
+      .header__logo {
+        background-color: red;
+        .logo-picture {
+          color: red;
+          height: 3rem;
+          width: 5rem;
+        }
+      }
+    }
+  }
+}
