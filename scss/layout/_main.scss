@@ -138,9 +138,6 @@
         transform: rotate(360deg);
       }
       .menu__categories__text {
-        // display: flex;
-        // flex-direction: column;
-        // margin: 0 0.5rem;
         width: 100%;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -174,7 +171,6 @@
         align-items: center;
         height: 100%;
         width: 4.5rem;
-        // width: 0;
         overflow: hidden;
         background-color: $color-light-green;
         border-radius: 0 1rem 1rem 0;
@@ -211,7 +207,6 @@
     align-items: center;
     color: white;
     transition: all 0.5s;
-    // border-radius: 0 1rem 1rem 0;
     .menu__categories__animation__icon {
       transition: all 0.5s;
       font-size: 1.5rem;

@@ -1,4 +1,4 @@
-@media screen and (min-width: 600px) and (max-width: 769px) {
+@media screen and (min-width: 769px) and (max-width: 1800px) {
   .restaurants__container {
     .restautants__card__container {
       margin-left: 2rem;
@@ -48,6 +48,11 @@
         .restaurant__title {
           font-size: 1.5rem;
         }
+      }
+      .menu__categories__container {
+        max-width: 800px;
+        margin-left: 22.5%;
+        margin-right: 22.5%;
       }
     }
     .menu__categories__container {
